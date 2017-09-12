@@ -1,0 +1,14 @@
+form {
+   
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    margin-top: 13em;
+    background: linear-gradient(45deg, maroon, black);
+    color: white;
+}
+body{
+	background: linear-gradient(45deg, grey, black); 
+}
