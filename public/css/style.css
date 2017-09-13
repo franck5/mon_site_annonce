@@ -1,4 +1,4 @@
-form {
+.inscription {
    
     margin: 0 auto;
     width: 400px;
@@ -11,4 +11,22 @@ form {
 }
 body{
 	background: linear-gradient(45deg, grey, black); 
+
+}
+form{
+
+	margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+   
+    background: linear-gradient(45deg, maroon, orange, maroon);
+    color: white;
+}
+.nav{
+	background: linear-gradient(white, maroon);	
+	color: blue;
+}
+.navbar-default .navbar-nav>li>a{
+	color: black;
 }

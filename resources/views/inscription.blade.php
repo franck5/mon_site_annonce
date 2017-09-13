@@ -9,7 +9,7 @@
 <div class="row">
 <div class="col-md-4"></div>
 <div class="col-md-4">
-<form method='post' id="form" enctype="multipart/form-data" action='http://127.0.0.1:8000/admin/users/add-save'>
+<form method='post' id="form" enctype="multipart/form-data" action='http://127.0.0.1:8000/admin/users/add-save' class="inscription">
 {{csrf_field()}}
  <div class="form-group">
     <label for="name">name</label>
@@ -27,6 +27,9 @@
     <label for="photo">File input</label>
     <input name="photo" type="file" id="file">
   </div>
+  <div class="form-group">
+    <input name="id_cms_privileges" type="hidden" id="" value="2">
+             </div>
   <center><button type="submit" class="btn btn-default">Submit</button></center>
 </form>
   </div>
